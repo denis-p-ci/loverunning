@@ -49,3 +49,29 @@ h2 {
     text-decoration: none;
     color: inherit;
 }
+
+#hero-image {
+    height: 900px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+    background-size: cover;
+
+    animation: hero-zoom 5s forwards;
+}
+
+#hero-outer {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* creates level of zoom for hero image */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
