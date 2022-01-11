@@ -149,7 +149,8 @@ h2 {
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin: 5px;;
+    margin: 5px;
+    ;
 }
 
 #welcome {
@@ -162,7 +163,7 @@ hr {
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-style:solid;
+    border-style: solid;
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
@@ -179,14 +180,15 @@ hr {
     background-image: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position; center;
+    background-position;
+    center;
     width: 100%;
     overflow: hidden;
 }
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 20%;
     height: 300px;
     float: left;
@@ -198,4 +200,23 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+footer {
+    height: 150px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > li {
+    display: inline;
+}
+
+.social i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
